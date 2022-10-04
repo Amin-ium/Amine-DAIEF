@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap');
+@font-face {
+    font-family: "bootstrap-icons";
+    src: url('../fonts/bootstrap-icons.woff'), url('../fonts/bootstrap-icons.woff2');
+}
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #EED6D6;
+    background-image: url("../images/hero-shape.svg");
+    background-repeat: no-repeat;
+    height: 100%;
+}
+nav button,.link{
+    background: linear-gradient(to right,#ffbd84 0,#ff1f8e 100%);
+    border-radius: 30px;
+    color: white;
+    font-size: 20px;
+}
+.containerr{
+    width: 94%;
+    margin: 0 auto;
+}
+.div1 h4{
+    color: #E60072;
+}
+.div1 h2{
+    color: #E60072;
+    font-size: 48px;
+    font-family: "Poppins";
+    font-weight: bold;
+}
+.div1 h2 span{
+    color: hwb(226 0% 66%);
+    display: block;
+    font-size: 48px;
+    font-family: "Poppins";
+    font-weight: bold;
+}
+.div1 button{
+    background: linear-gradient(to right,#ffbd84 0,#ff1f8e 100%);
+    border-radius: 30px;
+    color: white;
+    font-size: 20px;
+}
+.section2 .line{
+     background-color: #030303;
+     height: 10px;
+     width: 10px;
+}
+
+.section2 .title1{
+    color: #E60072;
+}
+.section2 h2{
+    font-size: 48px;
+    font-family: "Poppins";
+    font-weight: bold;
+    color: #030303;
+}
+hr{
+    width: 40px;
+}
+.follow h4{
+    font-size: 18px;
+    font-family: "Poppins";
+}
+.follow{
+    display: inline-block;
+}
+.foll{
+    display: inline-block;
+}
+.cartes{
+    display: flex;
+    justify-content: space-around
+}
+.carte1,.carte2,.carte3,.carte4{
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px; 
+}
+.carte1{
+    border: 2px solid #FFC3FE;
+}
+.carte2{
+    border: 2px solid #FFE6BA;
+}
+.carte3{
+    border: 2px solid #ADDAFF;
+}
+.carte4{
+    border: 2px solid #FFBABA;
+}
+
+.section3 {
+    background: #e2f3ff;
+    background: -moz-linear-gradient(top,#e2f3ff 0,#fffbef 100%);
+    background: -webkit-linear-gradient(top,#e2f3ff 0,#fffbef 100%);
+    background: linear-gradient(to bottom,#e2f3ff 0,#fffbef 100%);
+    padding: 50px 0;
+}
+.section3 .title2{
+    color: #E60072;
+    font-family: "Poppins";
+    font-size: 18px;
+}
+.section3 h2{
+    
+    font-size: 48px;
+    font-family: "Poppins";
+    font-weight: bold;
+}
+.cardd{
+    background-color: #FFFFFF;
+    width: 90%;
+    border-radius: 10px;
+    padding: 50px 0;
+}
+.cardd p{
+    margin: 0 20px;
+    font-family: "Open-Sans";
+}
+.cardd h3{
+    margin: 10px 0;
+    font-family: "Poppins";
+}
+.cardd a{
+    text-decoration: none;
+    
+}
+
+
+
